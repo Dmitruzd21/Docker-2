@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  new-app:
+    build: .
+    image: openjdk:latest
+    ports:
+      - '9999:9999'
